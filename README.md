@@ -1,9 +1,19 @@
 # Skript des Tages (30. Oktober 2025)
 #### 🖋️  **Dateiinhalts-Suche & Bericht**
-##### **Übersicht**
+#### **Übersicht**
 Dieses PowerShell-Skript sucht in einem bestimmten Verzeichnis nach Dateien, prüft, ob sie ein Schlüsselwort (z. B. "prompt") enthalten, und erstellt einen CSV-Bericht, der die übereinstimmenden Dateien auflistet. Es ist ideal, um Dateien schnell zu prüfen, ohne manuell Ordner durchsuchen zu müssen.
 
-**✅ Sicher & Nur Lesezugriff:** Das Skript **modifiziert, löscht oder verändert keine Dateien**. Es liest nur Daten und erstellt einen Bericht.
+**✅ Sicherheit:** Das Skript **modifiziert, löscht oder verändert keine Dateien**. Es liest nur Daten und erstellt einen Bericht.
+
+**❌ Haftungsauschluss:**
+> Dieses Skript wird ohne jegliche Gewährleistung bereitgestellt. Die Nutzung erfolgt auf eigene Verantwortung. Der Autor übernimmt keinerlei Haftung für Schäden oder Datenverluste, die durch die Verwendung dieses Skripts entstehen können.  
+> Das Skript greift lediglich lesend auf Benutzerdateien zu und erstellt eine CSV-Datei, nimmt jedoch keine Veränderungen an bestehenden Daten vor. Bitte prüfen Sie das Skript vor der Ausführung sorgfältig und verwende es nur in einer geeigneten Umgebung.  
+> 
+> Mit der Nutzung des Skripts akzeptieren Sie diesen Haftungsausschluss.
+
+**© Lizenz:** Das Script wird zur freien Verwendung zur Verfügung gestellt 
+
+https://creativecommons.org/publicdomain/zero/1.0/
 
 --------------------------------------------------------------------------------
 
