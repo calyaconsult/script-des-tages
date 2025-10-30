@@ -1,0 +1,3 @@
+# Der unten stehende Einzeiler durchsucht das aktuelle Verzeichnis und alle seine Unterverzeichnisse nach Dateien, die ein bestimmtes Stichwort enthalten und listet sie zusammen mit dem Datum der letzten Änderung auf.
+# Ersetze das Datum nach -newermt durch ein beliebiges anderes Datum, 'prompt' durch dein Stichwort und found_files.txt durch einen Dateinamen deiner Wahl
+find . -newermt '2025-06-01' -not -path '*filelist*' -type f \( -name "*.txt" -o -name "*.md" -o -name "*.html" \) -print0 | xargs -0 grep -il 'prompt' -Z | xargs -0 -I{} stat -c '%n,%y' {} | sed 's/\.[0-9]\+ +0[12]00//' > found_files.txt
